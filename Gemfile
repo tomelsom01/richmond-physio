@@ -71,3 +71,13 @@ end
 gem 'concurrent-ruby', '~> 1.3', '>= 1.3.4'
 # Use Cloudinary for image upload
 gem "cloudinary"
+
+gem 'meta-tags'
+
+# Gemfile
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'recaptcha', require: 'recaptcha/rails'
+
+gem 'sassc-rails'
+gem 'bootstrap', '~> 5.2.3'
+gem 'font-awesome-sass'
