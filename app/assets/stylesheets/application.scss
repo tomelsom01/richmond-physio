@@ -13,5 +13,12 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap";
- @import "font-awesome";
+
+// Graphical variables
+
+
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+

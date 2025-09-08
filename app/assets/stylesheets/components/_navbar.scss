@@ -1,0 +1,109 @@
+
+#mainnav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: 433d37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+}
+.blacktime{
+  background-color: black;
+  transition-delay: 0.2s;
+}
+.navimage{
+  width: 10vh;
+  height: 10vh;
+}
+.navlink{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.navlink:hover{
+  color: #6f6253;
+}
+
+#navbar-brand1 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#navbar-nav1 {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item1 {
+  margin-left: 20px;
+}
+#navcolor{
+  color: #6f6253;
+}
+#navcolor:hover{
+  color: #433d37;
+}
+.nav-item a {
+  color: white; /* Color for nav links */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem;
+}
+
+.nav-item a:hover {
+  color: #d08f2d; /* Hover color */
+  text-shadow: 2px 2px #000;
+}
+
+.navbar-collapse.position-absolute {
+  background-color: #343a40;
+  border-radius: 0.25rem;
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+.navbar-collapse.bg-dark {
+  border-top: 1px solid #444; /* Optional border for separation */
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #48423a;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbackground{
+  background-color: #08598E;
+}
+
+.navhover{
+  transition: color 0.5s;
+  border: 1px solid #000;
+}
+
+.navhover:hover{
+  color: #043657;
+}

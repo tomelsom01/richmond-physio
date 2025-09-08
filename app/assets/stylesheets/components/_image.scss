@@ -1,0 +1,61 @@
+#navimage {
+  width: 10vh;
+}
+
+.mainimage {
+  width: 100%;
+  height: 60vh;
+  background-image: url("https://res.cloudinary.com/daaxwngzv/image/upload/v1734535457/sport_physio_ikmp2z.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profilepic{
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.imagetext{
+  width: 25vw;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.mapimage{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cardimage{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 20vh;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  #navimage{
+    display: none;
+  }
+  .profilepic{
+    width: 30vw;
+    height: 30vw;
+  }
+  .imagetext{
+    width: 50vw;
+  }
+  .mainimage {
+    height: 50vh; /* Adjust height for smaller screens */
+  }
+  .cardimage {
+    height: auto; /* Adjust height for smaller screens */
+  }
+}

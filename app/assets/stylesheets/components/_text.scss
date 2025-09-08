@@ -1,0 +1,132 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.maintext {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-shadow: 0 0.19rem 0.38rem rgba(0, 0, 0, 0.16);
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.daysdates {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  flex: 1 1 120px; /* Grow, shrink, min width */
+  text-align: center;
+  min-width: 90px;
+  max-width: 100px;
+  white-space: nowrap; /* Prevent breaking day names */
+}
+
+.daysdatesred {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.button-36 {
+  /* Your existing button styles */
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .maintext {
+    font-size: 2rem;
+  }
+}
+
+
+.maincontain{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center;
+}
+
+.abouttext{
+  color: #ffffff;
+  font-size: 1.3;
+  font-weight: 600;
+  text-shadow: 0 0.19rem 0.38rem rgba(0, 0, 0, 0.16);
+}
+
+.abouttextbutton{
+  color: #6F42C1;
+  font-size: 1.3;
+  font-weight: 600;
+  text-shadow: 0 0.19rem 0.38rem rgba(0, 0, 0, 0.16);
+}
+
+.abouttextbutton:hover{
+  color: #9400D3;
+  cursor: pointer;
+}
+
+.tellink{
+  text-decoration: none;
+  color: #333;
+}
+
+.tellink:hover{
+  color: #6f6253;
+}
+
+.footertel{
+  color: black;
+  text-decoration: none;
+}
+
+.footertel:hover{
+  color: #bf8231;
+}
+
+.textwhite{
+  color: white;
+}
+
+.specborder{
+  border: 1px solid #00d084;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #00d084; /* Light background for contrast */
+}
+
+.boldtext{
+  font-weight: bold;
+  color: #333; /* Dark text for better readability */
+  font-size: clamp(1.5rem, 5vw, 3rem); /* Slightly larger font size */
+  text-shadow: 0 0.19rem 0.38rem rgba(0, 0, 0, 0.16); /* Subtle shadow for depth */
+  margin-bottom: 1rem; /* Spacing between elements */
+}
+
+.bantext {
+  font-size: clamp(0.7rem, 4vw, 1.2rem); /* Responsive font size */
+  color: #333; /* Dark text for better readability */
+  margin-top: 1rem; /* Spacing above the text */
+  padding-bottom: 1rem; /* Spacing below the text */
+}
+@media (max-width: 480px) {
+  .daysdates {
+    font-size: 0.95em;
+    padding: 4px 0;
+  }
+}
