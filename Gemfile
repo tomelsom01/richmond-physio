@@ -80,4 +80,5 @@ gem 'recaptcha', require: 'recaptcha/rails'
 
 gem 'sassc-rails'
 gem 'bootstrap', '~> 5.2.3'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 6.1'
+gem "simple_form", github: "heartcombo/simple_form"
