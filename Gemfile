@@ -68,6 +68,10 @@ group :test do
 
 end
 
+gem 'psych', '~> 5.2'
+gem 'erb', '~> 4.0'
+
+
 gem 'concurrent-ruby', '~> 1.3', '>= 1.3.4'
 # Use Cloudinary for image upload
 gem "cloudinary"
@@ -82,3 +86,5 @@ gem 'sassc-rails'
 gem 'bootstrap', '~> 5.2.3'
 gem 'font-awesome-sass', '~> 6.1'
 gem "simple_form", github: "heartcombo/simple_form"
+
+gem "sitemap_generator"
