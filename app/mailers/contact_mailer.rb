@@ -1,5 +1,5 @@
 class ContactMailer < ApplicationMailer
-  default to: 'te28@hotmail.com'
+  default to: 'brisbanephysio@hotmail.co.uk'
 
   def contact_email(name, email, phone, message)
     @name = name
@@ -8,7 +8,7 @@ class ContactMailer < ApplicationMailer
     @message = message
 
     mail(
-      from: email, 
+      from: email,
       subject: 'New Contact Form Submission',
       reply_to: email
     )
